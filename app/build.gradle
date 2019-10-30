@@ -25,5 +25,7 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 
     implementation project(':commlib')
-    implementation(name: 'weex_sdk-0.24.0', ext: 'aar')
+//    implementation(name: 'weex_sdk-0.24.0', ext: 'aar')
+    implementation(name: 'weex_sdk-0.26.0', ext: 'aar')
+//    implementation 'org.apache.weex:sdk_legacy:0.28.0'
 }
