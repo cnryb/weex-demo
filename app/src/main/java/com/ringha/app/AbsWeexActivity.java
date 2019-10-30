@@ -229,10 +229,6 @@ public class AbsWeexActivity extends AppCompatActivity implements IWXRenderListe
     mInstance.renderByUrl(mPageName, url, null, null,WXRenderStrategy.APPEND_ASYNC);
 
   }
-
-
-
-
   @Override
   public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
     if (mInstance != null) {
@@ -260,10 +256,6 @@ public class AbsWeexActivity extends AppCompatActivity implements IWXRenderListe
   @Override
   public void onException(WXSDKInstance instance, String errCode, String msg) {
 
-  }
-
-  public void loadUrl(String url) {
-//    mInstance.renderByUrl(mPageName, url, null, null,WXRenderStrategy.APPEND_ASYNC);
   }
 
 }
